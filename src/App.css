@@ -13,7 +13,7 @@
 
 .video-player {
 	grid-area: video-player;
-	background: blue;
+	background: #f0e68c;
 }
 
 .video-list {

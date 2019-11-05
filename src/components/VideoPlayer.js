@@ -20,8 +20,10 @@ const VideoPlayer = (props) => {
 			{props.video.id && (
 				<div>
 					<Embed id={props.video.id.videoId} source="youtube" />
-					<p>{props.video.snippet.title}</p>
-					<p>{props.video.snippet.description}</p>
+					<p className="video-titulo">{props.video.snippet.title}</p>
+					<p className="video-descricao">
+						{props.video.snippet.description}
+					</p>
 				</div>
 			)}
 		</div>
